@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { HousingService } from 'src/app/Services/housing.service';
+import { IPropertyInterface } from './IProperty-Interface';
 
 @Component({
   selector: 'app-property-list',
@@ -9,7 +10,7 @@ import { HousingService } from 'src/app/Services/housing.service';
 })
 export class PropertyListComponent implements OnInit {
 
-  properties: any ;
+  properties: Array<IPropertyInterface> | undefined ;
   constructor(private housingService:HousingService) { }
 
   ngOnInit() {
@@ -17,8 +18,6 @@ export class PropertyListComponent implements OnInit {
       data => {
         this.properties = data;
         console.log(data);
-      }, error=>{
-        console.log(error);
       }
     )
   }
