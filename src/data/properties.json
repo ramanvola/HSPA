@@ -1,48 +1,63 @@
 [
   {
     "Id": 1,
+    "SellRent":1,
     "Name": "Birla house",
     "Type": "House",
-    "Price": 12000
+    "Price": 12000,
+    "Image":  "prop-1"
   },
   {
     "Id": 2,
+    "SellRent":1,
     "Name": "Erose Villa",
     "Type": "House",
-    "Price": 15000
+    "Price": 15000,
+    "Image":  "prop-2"
   },
   {
     "Id": 3,
+    "SellRent":2,
     "Name": "Panwar Sadan",
     "Type": "House",
-    "Price": 22000
+    "Price": 22000,
+    "Image":  "prop-3"
   },
   {
     "Id": 4,
+    "SellRent":2,
     "Name": "Kandari house",
     "Type": "House",
-    "Price": 22000
+    "Price": 22000,
+    "Image":  "prop-4"
   },
   {
     "Id": 5,
+    "SellRent":1,
     "Name": "Albert Villa",
     "Type": "House",
-    "Price": 21000
+    "Price": 21000,
+    "Image":  "prop-5"
   },
   {
     "Id": 6,
+    "SellRent":1,
     "Name": "Asha kutir",
     "Type": "House",
-    "Price": 18000
+    "Price": 18000,
+    "Image":  "prop-6"
   },
   {
     "Id": 7,
+    "SellRent":1,
     "Name": "ABS house",
     "Type": "House",
-    "Price": 52000
+    "Price": 52000,
+    "Image":  "prop-7"
   },
   {
     "Id": 8,
+    "SellRent":1,
     "Name": "ABC house",
     "Type": "House",
     "Price": 25000
